@@ -1,1 +1,92 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+
+@media screen and ( max-width:699px) {
+    article {
+        width: 95%;
+    }
+    header div{
+        display: none;
+    }
+}
+
+@media screen and ( min-width:500px) {
+    .choice-grid div{
+        width: 32.5%;
+    }
+}
+
+@media screen and ( max-width:499px) {
+    .choice-grid div{
+        width: 49%;
+    }
+}
+
+.choice-grid div img{
+    max-width: 100%;
+    height: auto;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.choice-grid div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+    border: 1px;
+    border-color: #dcdcdc;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.checkbox{
+    width: 20px;
+}
+
+.chosen{
+    background: #cfe3ff!important;
+}
+
+.unchosen{
+    opacity: 0.6;
+}
+
+#result_section{
+    margin-top: 30px;
+}
+
+.result_area{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.result_content{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.result_botton{
+    background: #cecece;
+    height: 50px;
+
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.result_botton_text{
+
+    justify-content: center;
+}
+
+.result_botton:hover{
+    background: #e0e0e0;
+}

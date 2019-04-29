@@ -2,7 +2,7 @@
 // course staff.
 {
   "name": "Evil Extension",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Changes all there/their/they'res to the wrong version of the word",
   "content_scripts": [
     {
